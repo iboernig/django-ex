@@ -2,6 +2,9 @@
 
 <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}" />
 
+<title>Polls - a full app in Django </title>
+<h1>Recent Polls</h1>
+
 {% if latest_question_list %}
     <ul>
     {% for question in latest_question_list %}
