@@ -13,6 +13,7 @@ urlpatterns = [
     url(r'^health$', health),
     url(r'^polls/', include('polls.urls')),
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^posts/', include('posts.urls')),
 ]
 
 if settings.DEBUG:
