@@ -13,4 +13,4 @@ class Posts(models.Model):
     def __str__(self):
         return self.title
     class Meta:
-        verbose_name_pluta = "Posts"
+        verbose_name_plural = "Posts"
